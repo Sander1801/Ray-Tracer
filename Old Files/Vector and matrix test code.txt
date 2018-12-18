@@ -1,0 +1,171 @@
+/*vec2 test(0, 0);
+	test[0] = 5.f;
+	std::cout << "[] = " << test[0] << std::endl;
+	test[1] = 8.f;
+	std::cout << "[] = " << test[1] << std::endl;
+	std::cout << "x = " << test.m_X << std::endl;
+	std::cout << "y = " << test.m_Y << std::endl;
+	test += vec2(0.5f, 0.5f);
+	std::cout << "+= " << test.m_X << " - " << test.m_Y << std::endl;
+	test -= vec2(0.5f, 0.5f);
+	std::cout << "-= " << test.m_X << " - " << test.m_Y << std::endl;
+	test *= 0.5f;
+	std::cout << "*= " << test.m_X << " - " << test.m_Y << std::endl;
+	test /= 0.5f;
+	std::cout << "/= " << test.m_X << " - " << test.m_Y << std::endl;
+	test = vec2(1.f, 1.5f);
+	std::cout << "= " << test.m_X << " - " << test.m_Y << std::endl;
+	vec2 vec22 = test + test;
+	std::cout << "+ (v2 + v2) " << vec22.m_X << " - " << vec22.m_Y << std::endl;
+	vec2 vec23 = test - test;
+	std::cout << "- (v2 - v2) " << vec23.m_X << " - " << vec23.m_Y << std::endl;
+	vec2 vec24 = test * 4.f;
+	std::cout << "* (v2 * float) " << vec24.m_X << " - " << vec24.m_Y << std::endl;
+	vec2 vec25 = test / 4.f;
+	std::cout << "/ (v2 / float) " << vec25.m_X << " - " << vec25.m_Y << std::endl;
+
+	if (test == test) {
+		std::cout << "== " << "true" << std::endl;
+	}
+
+	if (test != vec2(5, 5)) {
+		std::cout << "!= " << "false" << std::endl;
+	}
+
+	test = vec2(3, 4);
+	std::cout << "length (3, 4) = " << test.length() << std::endl;
+
+	vec2 test2(3, 4);
+	std::cout << "dot (3, 4) (3, 4) = " << test.dot(test2) << std::endl;
+
+	vec2 testen = test.normalize();
+	std::cout << "normalize (3, 4) = " << testen.m_X << " - " << testen.m_Y << std::endl; */
+
+	/*	vec3 test;
+		test[0] = 5.f;
+		std::cout << "[] = " << test[0] << std::endl;
+		test[1] = 8.f;
+		std::cout << "[] = " << test[1] << std::endl;
+		test[2] = 6.f;
+		std::cout << "[] = " << test[2] << std::endl;
+		std::cout << "x = " << test.m_X << std::endl;
+		std::cout << "y = " << test.m_Y << std::endl;
+		std::cout << "z = " << test.m_Z << std::endl;
+		test += vec3(0.5f, 0.5f, 0.6f);
+		std::cout << "+= " << test.m_X << " - " << test.m_Y << " - " << test.m_Z << std::endl;
+		test -= vec3(0.5f, 0.5f, 0.6f);
+		std::cout << "-= " << test.m_X << " - " << test.m_Y << " - " << test.m_Z << std::endl;
+		test *= 0.5f;
+		std::cout << "*= " << test.m_X << " - " << test.m_Y << " - " << test.m_Z << std::endl;
+		test /= 0.5f;
+		std::cout << "/= " << test.m_X << " - " << test.m_Y << " - " << test.m_Z << std::endl;
+		test = vec3(1.f, 1.5f, 1.6f);
+		std::cout << "= " << test.m_X << " - " << test.m_Y << " - " << test.m_Z << std::endl;
+		vec3 vec22 = test + test;
+		std::cout << "+ (v3 + v3) " << vec22.m_X << " - " << vec22.m_Y << " - " << vec22.m_Z << std::endl;
+		vec3 vec23 = test - test;
+		std::cout << "- (v3 - v3) " << vec23.m_X << " - " << vec23.m_Y << " - " << vec23.m_Z << std::endl;
+		vec3 vec24 = test * 4.f;
+		std::cout << "* (v3 * float) " << vec24.m_X << " - " << vec24.m_Y << " - " << vec24.m_Z << std::endl;
+		vec3 vec25 = test / 4.f;
+		std::cout << "/ (v3 / float) " << vec25.m_X << " - " << vec25.m_Y << " - " << vec25.m_Z << std::endl;
+
+		if (test == test) {
+			std::cout << "== " << "true" << std::endl;
+		}
+
+		if (test != vec3(5, 5, 5)) {
+			std::cout << "!= " << "false" << std::endl;
+		}
+
+		test = vec3(3, 4, 5);
+		std::cout << "length (3, 4, 5) = " << test.length() << std::endl;
+
+		vec3 test2(3, 4, 5);
+		std::cout << "dot (3, 4, 5) (3, 4, 5) = " << test.dot(test2) << std::endl;
+
+		vec3 test3(3, 4, 6);
+		vec3 oke = test.cross(test3);
+		std::cout << "cross (3, 4, 5) (3, 4, 6) = " << oke.m_X << " - " << oke.m_Y << " - " << oke.m_Z << std::endl;
+
+		vec3 testen = test.normalize();
+		std::cout << "normalize (3, 4, 5) = " << testen.m_X << " - " << testen.m_Y << " - " << testen.m_Z << std::endl; */
+		/*
+			mat4 testen(9, 13, 5, 2, 1, 11, 7, 6, 3, 7, 4, 1, 6, 0, 7, 10);
+			float oke = testen.determinant();
+			std::cout << "determinant " << oke << std::endl;
+
+			mat4 test2(5, 2, 2, 6, 3, 1, 5, 0, 4, 6, 4, 4, 0, 6, 4, 1);
+			test2.inverse();
+
+			mat4 test3(5, 2, 2, 6, 3, 1, 5, 0, 4, 6, 4, 4, 0, 6, 4, 1);
+			mat4 test4(4, 5, 2, 2, 2, 2, 3, 4, 1, 5, 7, 8, 4, 3, 2, 1);
+
+			mat4 test5 = test3 + test4;
+			std::cout << "Addition " << test5.m[0] << " - " << test5.m[1] << " - " << test5.m[2] << " - " << test5.m[3] << " - " << test5.m[4] << " - " << test5.m[5]
+				<< " - " << test5.m[6] << " - " << test5.m[7] << " - " << test5.m[8] << " - " << test5.m[9] << " - " << test5.m[10] << " - " << test5.m[11]
+				<< " - " << test5.m[12] << " - " << test5.m[13] << " - " << test5.m[14] << " - " << test5.m[15] << std::endl;
+
+			std::cout << "operator [3][3] " << test5[3][3] << std::endl;
+			std::cout << "operator (3, 3) " << test5(3, 3) << std::endl;
+
+			mat4 test6; //test3.identity();
+			std::cout << "Identity " << test6.m[0] << " - " << test6.m[1] << " - " << test6.m[2] << " - " << test6.m[3] << " - " << test6.m[4] << " - " << test6.m[5]
+				<< " - " << test6.m[6] << " - " << test6.m[7] << " - " << test6.m[8] << " - " << test6.m[9] << " - " << test6.m[10] << " - " << test6.m[11]
+				<< " - " << test6.m[12] << " - " << test6.m[13] << " - " << test6.m[14] << " - " << test6.m[15] << std::endl;
+
+
+			std::cout << "Rotation test (45 degrees): " << std::endl;
+			float radians = (float)(45 * 3.14159265358) / 180;
+			mat4 rotationX = test5.rotateX(radians);
+			std::cout << "Rotate X \n" << rotationX.m[0] << " - " << rotationX.m[1] << " - " << rotationX.m[2] << " - " << rotationX.m[3] << "\n" << rotationX.m[4] << " - " << rotationX.m[5]
+				<< " - " << rotationX.m[6] << " - " << rotationX.m[7] << "\n" << rotationX.m[8] << " - " << rotationX.m[9] << " - " << rotationX.m[10] << " - " << rotationX.m[11]
+				<< "\n" << rotationX.m[12] << " - " << rotationX.m[13] << " - " << rotationX.m[14] << " - " << rotationX.m[15] << std::endl;
+
+			mat4 rotationY = test5.rotateY(radians);
+			std::cout << "Rotate Y \n" << rotationY.m[0] << " - " << rotationY.m[1] << " - " << rotationY.m[2] << " - " << rotationY.m[3] << "\n" << rotationY.m[4] << " - " << rotationY.m[5]
+				<< " - " << rotationY.m[6] << " - " << rotationY.m[7] << "\n" << rotationY.m[8] << " - " << rotationY.m[9] << " - " << rotationY.m[10] << " - " << rotationY.m[11]
+				<< "\n" << rotationY.m[12] << " - " << rotationY.m[13] << " - " << rotationY.m[14] << " - " << rotationY.m[15] << std::endl;
+
+			mat4 rotationZ = test5.rotateZ(radians);
+			std::cout << "Rotate Z \n" << rotationZ.m[0] << " - " << rotationZ.m[1] << " - " << rotationZ.m[2] << " - " << rotationZ.m[3] << "\n" << rotationZ.m[4] << " - " << rotationZ.m[5]
+				<< " - " << rotationZ.m[6] << " - " << rotationZ.m[7] << "\n" << rotationZ.m[8] << " - " << rotationZ.m[9] << " - " << rotationZ.m[10] << " - " << rotationZ.m[11]
+				<< "\n" << rotationZ.m[12] << " - " << rotationZ.m[13] << " - " << rotationZ.m[14] << " - " << rotationZ.m[15] << std::endl;
+
+
+
+
+
+
+
+			vec3 cameraPos(0.f, 0.f, -1.f);
+			vec3 center(0.f, 0.f, 1.f);
+			mat4 test7 = mat4::lookat(cameraPos, cameraPos + center, vec3(0.f, 1.f, 0.f));
+
+			std::cout << "Look At " << test7.m[0] << " - " << test7.m[1] << " - " << test7.m[2] << " - " << test7.m[3] << " - " << test7.m[4] << " - " << test7.m[5]
+				<< " - " << test7.m[6] << " - " << test7.m[7] << " - " << test7.m[8] << " - " << test7.m[9] << " - " << test7.m[10] << " - " << test7.m[11]
+				<< " - " << test7.m[12] << " - " << test7.m[13] << " - " << test7.m[14] << " - " << test7.m[15] << std::endl;
+
+			mat4 test8 = mat4::projection(90.f, 1.f, 0.1f, 100.f);
+
+			std::cout << "Perspective Projection (90, 1, 0.1, 100) " << test8.m[0] << " - " << test8.m[1] << " - " << test8.m[2] << " - " << test8.m[3] << " - " << test8.m[4] << " - " << test8.m[5]
+				<< " - " << test8.m[6] << " - " << test8.m[7] << " - " << test8.m[8] << " - " << test8.m[9] << " - " << test8.m[10] << " - " << test8.m[11]
+				<< " - " << test8.m[12] << " - " << test8.m[13] << " - " << test8.m[14] << " - " << test8.m[15] << std::endl;
+				*/
+
+	mat4 test5(1, 2, 3, 4, 4, 3, 2, 1, 2, 4, 1, 3, 3, 1, 2, 1);
+	test5.inverse();
+
+	std::cout << test5[3][1] << std::endl;
+/*
+	std::cout << test5[0][2] << std::endl;
+	test5[0][2] = 4.f;
+
+	std::cout << test5[0][2] << std::endl;
+
+	*/
+
+	std::cout << "Inverse " << test5.m[0] << " - " << test5.m[1] << " - " << test5.m[2] << " - " << test5.m[3] << " - " << test5.m[4] << " - " << test5.m[5]
+		<< " - " << test5.m[6] << " - " << test5.m[7] << " - " << test5.m[8] << " - " << test5.m[9] << " - " << test5.m[10] << " - " << test5.m[11]
+		<< " - " << test5.m[12] << " - " << test5.m[13] << " - " << test5.m[14] << " - " << test5.m[15] << std::endl; 
+	//test5[1][1] = 1;

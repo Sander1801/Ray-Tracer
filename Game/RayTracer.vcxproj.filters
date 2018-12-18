@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{cb9d4215-d319-46c8-8255-271a7745b746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials">
+      <UniqueIdentifier>{c5307252-243f-4039-b632-81d95a7cee4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lightning">
+      <UniqueIdentifier>{9c9d232c-932b-40bc-97f9-2261689af586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{305a9b71-038f-4a28-a8c2-360fe25cfbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{30be8d83-9542-4619-a648-c5a626fb32ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cameras">
+      <UniqueIdentifier>{f0e0a97a-a80a-4e5e-a44f-b8eedfef5e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials">
+      <UniqueIdentifier>{e93d03d7-853d-4a56-9484-36d9a332edb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{9fd27b2e-0046-4e64-ae70-777a7bdbd5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{64814c4a-a72f-47ce-adb5-5ea3d4f84e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lightning">
+      <UniqueIdentifier>{4234cb88-badc-445c-972c-c5737e274eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cameras">
+      <UniqueIdentifier>{162c6df8-2b48-4c8d-9f7b-cdc9eeb77ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{0e299f9b-3a33-46bd-b23e-4239c70634ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision\Geometric Objects">
+      <UniqueIdentifier>{9979870e-076e-46ed-bbad-b1f0dd529239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision\Spatial Partitioning">
+      <UniqueIdentifier>{c6a979ad-38f4-4b82-8e91-0e8144584017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision\Geometric Objects">
+      <UniqueIdentifier>{20b8e360-54ce-434d-b3b5-5c6fe0a1ba13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision\Spatial Partitioning">
+      <UniqueIdentifier>{0e81b1af-b47d-4ae5-bf75-455b734b17ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Includes\Game\RayTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Cameras\Camera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Collision\Contact.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Collision\Ray.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Collision\Shape.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Collision\Geometric Objects\Sphere.h">
+      <Filter>Header Files\Collision\Geometric Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Lighting\Light.h">
+      <Filter>Header Files\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Materials\Material.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Scenes\Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Scenes\SceneLoader.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Utilities\Color.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Utilities\Dimension.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Collision\Geometric Objects\Plane.h">
+      <Filter>Header Files\Collision\Geometric Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Lighting\AmbientLight.h">
+      <Filter>Header Files\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Lighting\PointLight.h">
+      <Filter>Header Files\Lightning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Materials\Matte.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Collision\Geometric Objects\Box.h">
+      <Filter>Header Files\Collision\Geometric Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Includes\Game\Utilities\Math.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Game\RayTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\World.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Materials\Material.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Lighting\Light.cpp">
+      <Filter>Source Files\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Collision\Ray.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Collision\Shape.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Collision\Geometric Objects\Sphere.cpp">
+      <Filter>Source Files\Collision\Geometric Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Includes\Game\Scenes\Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Scenes\SceneLoader.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Cameras\Camera.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Collision\Geometric Objects\Plane.cpp">
+      <Filter>Source Files\Collision\Geometric Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Lighting\AmbientLight.cpp">
+      <Filter>Source Files\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Lighting\PointLight.cpp">
+      <Filter>Source Files\Lightning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Materials\Matte.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Collision\Geometric Objects\Box.cpp">
+      <Filter>Source Files\Collision\Geometric Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Game\Utilities\Color.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
